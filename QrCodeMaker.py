@@ -1,7 +1,6 @@
 import qrcode
 from tkinter import *
 
-# TODO: написать комментарии
 def qcode():
     text = tx_poly.get('1.0', 'end')
     name = name_poly.get()
